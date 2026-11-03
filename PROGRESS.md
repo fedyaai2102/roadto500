@@ -5,7 +5,7 @@ Status values: todo · doing · waiting-fedya · done
 
 **Brand:** Leaseletter (see `/brand/name.md`)
 **Last session:** 2026-11-03
-**Next action:** Finish 1.1 (apply reviewer fixes), then 1.4 templates, then 1.5 workflow. Then Project 1B.
+**Next action:** Fedya: DET call + lawyer questions (`/channels/research.md` §0), join 4 groups and read 3 days. Claude: Step 1.5 order workflow when Fedya says go.
 **Channel change (2026-11-03):** see `PLAYBOOK-1B.md`. Fiverr is now optional (overseas buyers only); main channel is Telegram/Facebook groups + WhatsApp orders.
 **OPEN RISK:** Dubai Administrative Resolution 52/2022 (confirmed, official text) lists "drafting contracts" among Legal Services that LAD-licensed firms provide to the public; Federal Decree-Law 34/2022 Art. 5 similar (search extract, VERIFY). Ask a licensed UAE lawyer the 3 questions in `/channels/research.md` §0 before taking paid custom orders.
 
@@ -24,7 +24,7 @@ Status values: todo · doing · waiting-fedya · done
 | 1.1 ★ | Claude | Fiverr rules + competitor table → `/fiverr/research.md`, price recommendation | done (reviewed, fixes applied; prices provisional) |
 | 1.2 | Fedya | Fiverr seller account + ID verification | paused (Fedya, 2026-11-03) |
 | 1.3 | Claude | Gig draft → `/fiverr/gig.md` | paused (Fedya, 2026-11-03) |
-| 1.4 ★ | Claude | Master templates (DOCX + PDF) in `/templates`, sources in `/sources` | doing |
+| 1.4 ★ | Claude | Master templates (DOCX + PDF) in `/templates`, sources in `/sources` | done (v1.1, reviewed, fixes applied) |
 | 1.5 | Claude | Order workflow → `/fiverr/order-workflow.md` (used for WhatsApp orders) | todo |
 | 1.6 | Fedya | Upload gig (fields one by one) | paused (Fedya, 2026-11-03) |
 | 1.7 | Claude | Launch set → `/fiverr/launch.md` | paused (Fedya, 2026-11-03) |
@@ -38,7 +38,7 @@ Goal: 2–4 paid orders in first 30 days. Prices (AED): one letter 350 · move-o
 
 | # | Who | Step | Status |
 |---|---|---|---|
-| 1B.1 ★ | Claude | Groups (Telegram/Facebook, RU/EN) + E-Trader + payment links + broker licensing → `/channels/research.md`; Fedya decides | draft done; in review; then Fedya decides |
+| 1B.1 ★ | Claude | Groups (Telegram/Facebook, RU/EN) + E-Trader + payment links + broker licensing → `/channels/research.md`; Fedya decides | done (reviewed, fixes applied) — waiting: Fedya decides (DET call, lawyer, licence, payment) |
 | 1B.2 | Claude | 10 Russian answers → `/channels/telegram-answers-ru.md` | todo |
 | 1B.3 | Claude | 10 English answers → `/channels/facebook-answers-en.md` | todo |
 | 1B.4 | Claude | WhatsApp order flow (RU + EN) → `/channels/whatsapp-flow.md` | todo |
@@ -112,3 +112,4 @@ Gate for Phase B: 50 emails (Project 3) or 10 orders (Project 1).
   - Fedya paused Fiverr steps, then gave channel change (`PLAYBOOK-1B.md`). Brand chosen: Leaseletter.
   - Fedya blocked one GitHub push; commits are local only until he says whether to keep pushing.
   - First shortlist: only Leaseletter + Tenancynote free as .com. Checked 15 names via Shopify domain tool; new shortlist in `/brand/name-shortlist.md` (Leaseletter, Tenancyready, Tenancynote, Tenantink, Letterlease). .ae + social handles still VERIFY.
+  - 1.1 done (reviewed). 1.4 templates T01–T09 done (reviewed; v1.1). 1B.1 research done (reviewed); legal-services risk confirmed in official text (AR 52/2022 Art. 5(a)).

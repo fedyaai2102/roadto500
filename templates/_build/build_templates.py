@@ -18,7 +18,7 @@ from docx.shared import Cm, Pt, RGBColor
 
 OUT = Path(__file__).resolve().parent.parent
 AS_OF = "3 November 2026"
-VERSION = "v1.0"
+VERSION = "v1.1"
 DISCLAIMER = ("General information and templates only, not legal advice. "
               "For your specific case consult a licensed legal practitioner in the UAE.")
 
@@ -166,11 +166,11 @@ def guidance_page(doc, title, sections, sources):
     p(doc, "The English texts are the official translations published by the Supreme Legislation "
            "Committee, Dubai; the Arabic text prevails in case of conflict.", size=8.5, color=GREY, italic=True)
     p(doc, DISCLAIMER, size=9, bold=True, color=NAVY)
-    page_break(doc)
 
 
 def parties_block(doc, frm_label, to_label):
-    p(doc, "[Sender's name and address, or letterhead]", space_after=8)
+    first = p(doc, "[Sender's name and address, or letterhead]", space_after=8)
+    first.paragraph_format.page_break_before = True
     p(doc, "Date: [DD Month YYYY]")
     p(doc, f"To: [{to_label} full name, as in the tenancy contract]")
     p(doc, f"From: [{frm_label} full name] [— or: through authorised agent [agent name], under [power of attorney / management agreement ref]]")
@@ -317,7 +317,7 @@ def t02():
         ("What this template does not do", [SCOPE]),
     ], [
         ("Law 26/2007 Art. 6 (automatic renewal), Art. 20 (deposit), Art. 21 (return condition)", L26),
-        ("Law 26/2007 Art. 2 and Art. 14 as superseded by Law 33/2008", L33),
+        ("Law 26/2007 Art. 2, 14 and 25(2) as superseded by Law 33/2008", L33),
         ("Executive Council Resolution 72/2025, Schedule 1 (notary fee AED 200)", ECR72),
     ])
 
@@ -325,7 +325,7 @@ def t02():
     heading(doc, "Notice that I will not renew the tenancy contract", size=13, space_before=0)
     p(doc, "Dear [landlord name],")
     p(doc, "1. I give notice that I do not wish to renew the tenancy contract for the property above, which expires on [expiry date].")
-    p(doc, "2. This notice is given [number] days before the expiry date, in line with the notice period in clause [clause no.] of the tenancy contract.")
+    p(doc, "2. This notice is given [number] days before the expiry date[, in line with the notice period in clause [clause no.] of the tenancy contract] [or: the tenancy contract does not set a notice period].")
     p(doc, "3. I will vacate the property and return the keys, access cards and remotes on or before [move-out date].")
     p(doc, "4. I would like to arrange a joint move-out inspection on [proposed date and time]. Please confirm or suggest another time.")
     p(doc, "5. Please refund the security deposit of AED [deposit amount], or the remainder with an itemised list of any deductions, "
@@ -384,7 +384,7 @@ def t03():
     p(doc, "Dear [tenant name],")
     p(doc, "1. Under Article 25(2) of Law No. 26 of 2007 (as amended by Law No. 33 of 2008), I notify you that I require vacant "
            "possession of the property above on [eviction date]. This date is not earlier than the contract expiry date of [expiry date] "
-           "and is at least twelve (12) months after the date of this notice.")
+           "and is at least twelve (12) months after the date this notice is served on you.")
     p(doc, "2. The reason (one only):")
     p(doc, "☐  (d) I wish to sell the property.")
     p(doc, "☐  (c) I wish to retake possession for my own use / for use by my first-degree relative [name, relationship]. "
@@ -422,7 +422,7 @@ def t04():
         ]),
         ("If the tenant disagrees", [
             "Give the tenant a date to reply in writing. If you cannot agree, either party may take the matter to the Rental Disputes Center, "
-            "which has exclusive jurisdiction over Dubai rent disputes (Decree 26/2013 Art. 6).",
+            "which has exclusive jurisdiction over Dubai rent disputes, with some exceptions such as free zones with their own rent tribunal (Decree 26/2013 Art. 6).",
         ]),
         ("What this template does not do", [SCOPE]),
     ], [
@@ -449,6 +449,8 @@ def t04():
     p(doc, "4. If you disagree with any item, please reply in writing by [reply date] with your reasons, so we can try to settle it.", space_after=10)
     signature_block(doc, "Landlord / authorised agent of the landlord")
     p(doc, "Attachments: move-in checklist dated [date]; move-out checklist dated [date]; photos [nos.]; quotes/invoices [refs].", italic=True)
+    proof_block(doc, ["Registered mail", "Email to [address] — keep the sent copy", "By hand — tenant's signature below", "Other: [method]"])
+    p(doc, "Received by tenant (hand delivery): Name [ ] · Signature ______________ · Date [ ]")
     save(doc, "T04-deposit-deduction-letter")
 
 
@@ -496,7 +498,8 @@ def t05():
     p(doc, "4. I attach the move-in checklist dated [date], the move-out checklist / photos dated [date], and the key-handover receipt.")
     p(doc, "5. I would prefer to settle this directly. If we cannot agree, either of us may refer the matter to the Rental Disputes Center.", space_after=10)
     signature_block(doc, "Tenant")
-    proof_block(doc, ["Registered mail", "Email to [address] — keep the sent copy", "By hand — landlord's signature", "Other: [method]"])
+    proof_block(doc, ["Registered mail", "Email to [address] — keep the sent copy", "By hand — landlord's signature below", "Other: [method]"])
+    p(doc, "Received by landlord / agent (hand delivery): Name [ ] · Signature ______________ · Date [ ]")
     save(doc, "T05-deposit-return-request")
 
 
@@ -545,7 +548,8 @@ def t06():
     p(doc, "5. I request that the repair is completed by [date]. Access is available on [days and times]; please contact me on [phone] to arrange it.")
     p(doc, "6. Photos and earlier messages are attached.", space_after=10)
     signature_block(doc, "Tenant")
-    proof_block(doc, ["Email to [address] — keep the sent copy", "Registered mail", "By hand — landlord's signature", "Other: [method]"])
+    proof_block(doc, ["Email to [address] — keep the sent copy", "Registered mail", "By hand — landlord's signature below", "Other: [method]"])
+    p(doc, "Received by landlord / agent (hand delivery): Name [ ] · Signature ______________ · Date [ ]")
     save(doc, "T06-maintenance-repair-request")
 
 
@@ -564,15 +568,16 @@ ROOMS = [
 ]
 
 
-def header_facts(doc, title):
-    heading(doc, title, size=14, space_before=0)
+def header_facts(doc, title, keys_label="Keys, access cards, remotes handed over"):
+    h = heading(doc, title, size=14, space_before=0)
+    h.paragraph_format.page_break_before = True
     table(doc, [["Property", "[unit no.], [building], [community], Dubai"],
                 ["Ejari no. / contract dates", "[number] · [start date] to [expiry date]"],
                 ["Inspection date and time", "[date, time]"],
                 ["Landlord / agent present", "[name]"],
                 ["Tenant present", "[name]"],
                 ["Electricity / water meter readings", "[reading] / [reading] (photo [no.])"],
-                ["Keys, access cards, remotes handed over", "[number of each]"],
+                [keys_label, "[number of each]"],
                 ["Furnished?", "☐ Unfurnished  ☐ Semi-furnished  ☐ Furnished (list items in 'Other rooms')"]],
           [6, 11], header=False)
     p(doc, "Condition codes: G = good · F = fair (minor marks) · P = poor / damaged · N/A = not present", size=9, italic=True)
@@ -646,17 +651,15 @@ def t08():
     ], [
         ("Law 26/2007 Art. 20 (deposit) and Art. 21 (return condition)", L26),
     ])
-    header_facts(doc, "Move-out condition checklist")
+    header_facts(doc, "Move-out condition checklist", "Keys, access cards, remotes returned")
     p(doc, "Move-in checklist dated: [date]", bold=True)
     for room, items in ROOMS:
         heading(doc, room, size=10.5, space_before=4)
         table(doc, [["Item", "In", "Out", "Notes (what changed)", "Photo no.", "Agreed?"]] + [[i, "", "", "", "", "☐ Y ☐ N"] for i in items],
               [4.2, 1.1, 1.1, 6.2, 2, 2.4])
     photo_log(doc)
-    heading(doc, "Keys and readings at handover", size=11)
-    table(doc, [["Keys / cards / remotes returned", "[number of each]"],
-                ["Final electricity / water readings", "[reading] / [reading]"],
-                ["Forwarding address / contact (tenant)", "[details]"]], [7, 10], header=False)
+    heading(doc, "Tenant's forwarding details", size=11)
+    table(doc, [["Forwarding address / contact (tenant)", "[details]"]], [7, 10], header=False)
     signatures(doc)
     save(doc, "T08-move-out-checklist")
 
@@ -723,11 +726,14 @@ def t09():
     doc = new_doc(code, "Dubai tenancy terms — plain-English glossary", "Law 26/2007 as amended by Law 33/2008; Decrees 43/2013 and 26/2013")
     heading(doc, "Dubai tenancy terms — plain-English glossary", size=16, space_before=0)
     p(doc, "Standard terms you will meet in a Dubai tenancy contract, with the rule behind each one. Law as of " + AS_OF + ".", color=GREY)
+    p(doc, "When to use: read it alongside your own tenancy contract when signing, renewing or ending a Dubai tenancy, "
+           "to understand the standard terms. It does not interpret your contract.", space_after=4)
     p(doc, DISCLAIMER, bold=True, size=9.5, color=NAVY, space_after=8)
     table(doc, [["Term", "What it means", "Rule"]] + [[a, b, c] for a, b, c in GLOSSARY], [3.6, 10.4, 3], size=9)
     heading(doc, "Official sources (" + RET + ")", size=11)
     for cite, url in [("Law 26/2007", L26), ("Law 33/2008 (amending)", L33), ("Decree 43/2013", D43), ("Decree 26/2013", D26),
-                      ("DLD Smart Rent Index statement", SRI), ("DLD Ejari service", EJARI), ("RDC filing page", RDC),
+                      ("DLD Smart Rental Index launch, 2 Jan 2025", "https://dubailand.gov.ae/en/news-media/smart-rental-index-announcement"),
+                      ("DLD Smart Rent Index statement, 16 Feb 2025", SRI), ("DLD Ejari service", EJARI), ("RDC filing page", RDC),
                       ("Executive Council Resolution 72/2025", ECR72)]:
         par = doc.add_paragraph(style="List Bullet")
         par.paragraph_format.space_after = Pt(1)

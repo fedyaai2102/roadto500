@@ -121,8 +121,8 @@ All retrieved 2026-11-03. Recommendation: skip Russian Facebook.
 
 ## 5. Shortlist: join these 4 first
 
-1. **RU: Дубай ЧАТ** (https://t.me/dubai_chat_russia). The largest Russian Dubai discussion group found (about 69.7K members). Its stated purpose is "communication and help", so it is the best place for helpful answers on rent, Ejari and deposits. No promotion without admin approval.
-2. **RU: Чат взаимопомощи** (https://t.me/russkie_dubai). Small (about 4.4K members), but its description says service offers are allowed. It is the one Russian place where mentioning the templates may be OK (VERIFY).
+1. **RU: Дубай ЧАТ** (https://t.me/dubai_chat_russia). The largest Russian Dubai discussion group found (47,737 members, live count 2026-11-03). Its stated purpose is "communication and help", so it is the best place for helpful answers on rent, Ejari and deposits. No promotion without admin approval.
+2. **RU: Чат взаимопомощи** (https://t.me/russkie_dubai). Small (4,049 members, live count 2026-11-03), but its description says service offers are allowed. It is the one Russian place where mentioning the templates may be OK (VERIFY).
 3. **EN: Dubai Expat Community** (Facebook). The largest English Dubai Q&A group (about 94K–150K members, sources disagree). Tenancy questions come up there, and it reaches both tenants and owners.
 4. **EN: Dubai Real Estate Market: Buy, Sell, Rent** (https://www.facebook.com/groups/dubairealestatemarketbuysellrent/). The only English group found where an owner was seen asking peers about managing tenants. The audience is closest to landlords.
 
