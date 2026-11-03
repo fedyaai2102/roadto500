@@ -38,7 +38,7 @@ Goal: 2–4 paid orders in first 30 days. Prices (AED): one letter 350 · move-o
 
 | # | Who | Step | Status |
 |---|---|---|---|
-| 1B.1 ★ | Claude | Groups (Telegram/Facebook, RU/EN) + E-Trader + payment links + broker licensing → `/channels/research.md`; Fedya decides | todo |
+| 1B.1 ★ | Claude | Groups (Telegram/Facebook, RU/EN) + E-Trader + payment links + broker licensing → `/channels/research.md`; Fedya decides | doing |
 | 1B.2 | Claude | 10 Russian answers → `/channels/telegram-answers-ru.md` | todo |
 | 1B.3 | Claude | 10 English answers → `/channels/facebook-answers-en.md` | todo |
 | 1B.4 | Claude | WhatsApp order flow (RU + EN) → `/channels/whatsapp-flow.md` | todo |
