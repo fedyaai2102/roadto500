@@ -1,0 +1,7 @@
+# Security deposit: landlord may take one; must refund it or the remainder at expiry
+- **Figure / rule:** On signing, the landlord may take a security deposit to ensure maintenance of the property at the end of the lease, and must refund it or what remains of it at expiry.
+- **Law / article:** Law 26/2007 Art. 20 (not amended by Law 33/2008)
+- **Quote:** "When entering into a Lease Contract, the Landlord may obtain from the Tenant a security deposit to ensure maintenance of the Real Property upon the expiry of the Lease Contract, provided that the Landlord undertakes to refund such deposit or remainder thereof to the Tenant upon the expiry of the Lease Contract."
+- **Source:** https://dlp.dubai.gov.ae/Legislation%20Reference/2007/Law%20No.%20(26)%20of%202007%20Regarding%20regulation%20between%20the%20lessor%20and%20the%20lessee.html (official; official English translation by the Supreme Legislation Committee, Dubai; the page states the Arabic text prevails in case of conflict)
+- **Retrieved:** 2026-11-03
+- **Notes:** The law sets NO deposit amount cap and NO refund deadline (only "upon the expiry"). Any figures like "5%/10% of rent" or "within X days" are market practice or contract terms — VERIFY / do not state as law. Deductions are tied to "maintenance of the Real Property", read with Art. 21 (return in same condition except ordinary wear and tear) — see return-condition-art-21.md. Disputes go to the RDC (Art. 21 and Decree 26/2013).

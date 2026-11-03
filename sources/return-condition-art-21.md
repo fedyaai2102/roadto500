@@ -1,0 +1,7 @@
+# Return of the property in the condition received (except ordinary wear and tear)
+- **Figure / rule:** At expiry the tenant must return the property in the same condition as received at the start, except ordinary wear and tear or damage beyond the tenant's control; disputes go to the Tribunal (now the RDC).
+- **Law / article:** Law 26/2007 Art. 21 (not amended)
+- **Quote:** "Upon the expiry of the term of the Lease Contract, the Tenant will must surrender possession of the Real Property to the Landlord in the same condition in which the Tenant received it at the time of entering into the Lease Contract except for ordinary wear and tear or for damage due to reasons beyond the Tenant's control."
+- **Source:** https://dlp.dubai.gov.ae/Legislation%20Reference/2007/Law%20No.%20(26)%20of%202007%20Regarding%20regulation%20between%20the%20lessor%20and%20the%20lessee.html (official; official English translation by the Supreme Legislation Committee, Dubai; the page states the Arabic text prevails in case of conflict)
+- **Retrieved:** 2026-11-03
+- **Notes:** "will must" is a typo in the official English page; quoted as printed. The move-in/move-out checklists are the evidence for "the same condition in which the Tenant received it". The law does not define "ordinary wear and tear" — do not give examples as law. Art. 21 continues: "In the event of dispute between the two parties, the matter must be referred to the Tribunal". The Tribunal was renamed "Rent Disputes Settlement Centre" by Decree 26/2013 Art. 4(b).
