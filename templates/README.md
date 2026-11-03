@@ -1,4 +1,4 @@
-# Leaseletter master templates (v1.1, law as of 3 November 2026)
+# Leaseletter master templates (v1.2, law as of 3 November 2026)
 
 Each template is a Word file (edit this) and a PDF (preview). Page 1 is guidance notes — delete before sending. Orange [brackets] are the parts to fill in.
 
@@ -16,6 +16,6 @@ Each template is a Word file (edit this) and a PDF (preview). Page 1 is guidance
 
 Sources for every figure: `/sources` (see `/sources/INDEX.md`). Rebuild after any law change: `python3 templates/_build/build_templates.py`, then convert to PDF with LibreOffice. Re-verify sources monthly.
 
-Reviewed by a fresh-eyes reviewer on 2026-11-03: all figures matched the official texts; 3 must-fix and 7 minor fixes applied in v1.1.
+Reviewed by a fresh-eyes reviewer on 2026-11-03: all figures matched the official texts; 3 must-fix and 7 minor fixes applied in v1.1; v1.2 removes nested placeholders.
 
 General information and templates only, not legal advice. For your specific case consult a licensed legal practitioner in the UAE.

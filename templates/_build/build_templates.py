@@ -18,7 +18,7 @@ from docx.shared import Cm, Pt, RGBColor
 
 OUT = Path(__file__).resolve().parent.parent
 AS_OF = "3 November 2026"
-VERSION = "v1.1"
+VERSION = "v1.2"
 DISCLAIMER = ("General information and templates only, not legal advice. "
               "For your specific case consult a licensed legal practitioner in the UAE.")
 
@@ -173,7 +173,8 @@ def parties_block(doc, frm_label, to_label):
     first.paragraph_format.page_break_before = True
     p(doc, "Date: [DD Month YYYY]")
     p(doc, f"To: [{to_label} full name, as in the tenancy contract]")
-    p(doc, f"From: [{frm_label} full name] [— or: through authorised agent [agent name], under [power of attorney / management agreement ref]]")
+    p(doc, f"From: [{frm_label} full name]")
+    p(doc, "Agent (delete this line if none): [agent name], authorised under [power of attorney / management agreement ref]")
     p(doc, "Property: [unit no.], [building], [community], Dubai")
     p(doc, "Ejari no.: [number]   ·   Tenancy contract dated [date], expiring on [expiry date]", space_after=8)
 
@@ -282,7 +283,7 @@ def t01():
     p(doc, "3. The Dubai Land Department Rental Index result dated [date] (copy attached) shows an average annual rent of "
            "AED [index average] for similar units and a maximum allowed increase of [Y]% for this property under Decree No. 43 of 2013. "
            "The proposed increase does not exceed this.")
-    p(doc, "4. [All other terms of the tenancy contract remain unchanged.] [or: I also propose these changes: [list].]")
+    p(doc, "4. All other terms of the tenancy contract remain unchanged. Other proposed changes (delete if none): [list].")
     p(doc, "5. Please let me know by [reply date] whether you wish to renew on these terms, so the renewal can be registered in Ejari.", space_after=10)
     signature_block(doc, "Landlord / authorised agent of the landlord")
     p(doc, "Attachment: DLD Rental Index result dated [date]", italic=True)
@@ -325,7 +326,7 @@ def t02():
     heading(doc, "Notice that I will not renew the tenancy contract", size=13, space_before=0)
     p(doc, "Dear [landlord name],")
     p(doc, "1. I give notice that I do not wish to renew the tenancy contract for the property above, which expires on [expiry date].")
-    p(doc, "2. This notice is given [number] days before the expiry date[, in line with the notice period in clause [clause no.] of the tenancy contract] [or: the tenancy contract does not set a notice period].")
+    p(doc, "2. This notice is given [number] days before the expiry date. Notice period in the tenancy contract: [clause no. and period, or: none set].")
     p(doc, "3. I will vacate the property and return the keys, access cards and remotes on or before [move-out date].")
     p(doc, "4. I would like to arrange a joint move-out inspection on [proposed date and time]. Please confirm or suggest another time.")
     p(doc, "5. Please refund the security deposit of AED [deposit amount], or the remainder with an itemised list of any deductions, "
@@ -486,8 +487,8 @@ def t05():
     parties_block(doc, "Tenant", "Landlord")
     heading(doc, "Request for return of the security deposit", size=13, space_before=0)
     p(doc, "Dear [landlord name],")
-    p(doc, "1. The tenancy of the property above ended on [end date]. I vacated on [date] and returned the keys, access cards and remotes on [date]"
-           "[, and the move-out inspection took place on [date]].")
+    p(doc, "1. The tenancy of the property above ended on [end date]. I vacated on [date] and returned the keys, access cards and remotes on [date]. "
+           "Move-out inspection (delete if none): [date].")
     p(doc, "2. Under Article 20 of Law No. 26 of 2007, the landlord undertakes to refund the security deposit, or what remains of it, "
            "at the end of the tenancy. I paid a security deposit of AED [deposit amount].")
     p(doc, "3. I request:")
