@@ -5,7 +5,7 @@ Status values: todo · doing · waiting-fedya · done
 
 **Brand:** Leaseletter (see `/brand/name.md`)
 **Last session:** 2026-11-03
-**Next action:** Project 1 Step 1 — Fiverr rules + competitor research.
+**Next action:** Finish 1.1 review, then 1.4 templates. Fiverr steps 1.2, 1.3, 1.6, 1.7, 1.8 paused by Fedya.
 
 ## Setup (first session)
 
@@ -20,13 +20,13 @@ Status values: todo · doing · waiting-fedya · done
 | # | Who | Step | Status |
 |---|---|---|---|
 | 1.1 ★ | Claude | Fiverr rules + competitor table → `/fiverr/research.md`, price recommendation | doing |
-| 1.2 | Fedya | Fiverr seller account + ID verification | todo |
-| 1.3 | Claude | Gig draft → `/fiverr/gig.md` | todo |
-| 1.4 ★ | Claude | Master templates (DOCX + PDF) in `/templates`, sources in `/sources` | todo |
+| 1.2 | Fedya | Fiverr seller account + ID verification | paused (Fedya, 2026-11-03) |
+| 1.3 | Claude | Gig draft → `/fiverr/gig.md` | paused (Fedya, 2026-11-03) |
+| 1.4 ★ | Claude | Master templates (DOCX + PDF) in `/templates`, sources in `/sources` | doing |
 | 1.5 | Claude | Order workflow → `/fiverr/order-workflow.md` | todo |
-| 1.6 | Fedya | Upload gig (fields one by one) | todo |
-| 1.7 | Claude | Launch set → `/fiverr/launch.md` | todo |
-| 1.8 | Fedya | Post launch set over 3 days; 3 real orders from contacts | todo |
+| 1.6 | Fedya | Upload gig (fields one by one) | paused (Fedya, 2026-11-03) |
+| 1.7 | Claude | Launch set → `/fiverr/launch.md` | paused (Fedya, 2026-11-03) |
+| 1.8 | Fedya | Post launch set over 3 days; 3 real orders from contacts | paused (Fedya, 2026-11-03) |
 | 1.9 | Claude | Fulfil each order (Fedya reads before delivery) | todo |
 | 1.10 | Claude | Summary after first 3 orders → Fable pricing decision | todo |
 
