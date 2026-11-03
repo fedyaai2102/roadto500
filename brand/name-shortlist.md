@@ -18,7 +18,7 @@ noticeday, keyclause, clearlease, rentletters, tenancydesk, leasepapers, noticew
 
 ## Not yet checked — VERIFY before final pick
 
-- .ae availability (the tool does not cover .ae; check at an .ae registrar)
+- .ae availability for names other than leaseletter.ae
 - Instagram / LinkedIn / X / Facebook handle availability (this session cannot open those sites)
 - Existing trademark or business with the same name in the UAE
 
