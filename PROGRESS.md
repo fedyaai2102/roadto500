@@ -1,11 +1,11 @@
-# PROGRESS — BRAND
+# PROGRESS — Leaseletter
 
 Read this first every session. Update it at the end of every session.
 Status values: todo · doing · waiting-fedya · done
 
-**Brand:** not chosen yet (placeholder `BRAND`)
+**Brand:** Leaseletter (see `/brand/name.md`)
 **Last session:** 2026-11-03
-**Next action:** Fedya picks a brand name from the shortlist.
+**Next action:** Project 1 Step 1 — Fiverr rules + competitor research.
 
 ## Setup (first session)
 
@@ -13,13 +13,13 @@ Status values: todo · doing · waiting-fedya · done
 |---|---|---|
 | S1 | Create PROGRESS.md | done |
 | S2 | Create folders | done |
-| S3 | Propose 5 brand names, Fedya picks, write `/brand/name.md` | doing |
+| S3 | Propose 5 brand names, Fedya picks, write `/brand/name.md` | done — Leaseletter |
 
 ## Project 1 — Fiverr gig
 
 | # | Who | Step | Status |
 |---|---|---|---|
-| 1.1 ★ | Claude | Fiverr rules + competitor table → `/fiverr/research.md`, price recommendation | todo |
+| 1.1 ★ | Claude | Fiverr rules + competitor table → `/fiverr/research.md`, price recommendation | doing |
 | 1.2 | Fedya | Fiverr seller account + ID verification | todo |
 | 1.3 | Claude | Gig draft → `/fiverr/gig.md` | todo |
 | 1.4 ★ | Claude | Master templates (DOCX + PDF) in `/templates`, sources in `/sources` | todo |
@@ -69,7 +69,7 @@ Status values: todo · doing · waiting-fedya · done
 | 4.7 | Claude | Forum answer per article; weekly LinkedIn post | todo |
 | 4.8 | Fedya | Sitemap to Search Console; weekly impressions; summaries at 15/30 | todo |
 
-## Project 5 — BRAND Reminders (micro-SaaS)
+## Project 5 — Leaseletter Reminders (micro-SaaS)
 
 Gate for Phase B: 50 emails (Project 3) or 10 orders (Project 1).
 
