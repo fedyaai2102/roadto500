@@ -1,3 +1,5 @@
+> **Override (2026-11-03):** Also read `PLAYBOOK-1B.md`. It changes Project 1 (Fiverr steps 2, 3, 6, 7, 8 paused; steps 9–10 apply to WhatsApp orders) and adds Project 1B (direct orders via Telegram/Facebook groups + WhatsApp, AED prices). Where they conflict, `PLAYBOOK-1B.md` wins.
+
 # CLAUDE-PLAYBOOK.md — Dubai tenancy documents income build
 
 You are Claude Code working with Fedya. Your job: build five income projects in order, and walk Fedya through every step he has to do himself, one step at a time. Read this whole file before doing anything.

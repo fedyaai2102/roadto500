@@ -5,7 +5,9 @@ Status values: todo · doing · waiting-fedya · done
 
 **Brand:** Leaseletter (see `/brand/name.md`)
 **Last session:** 2026-11-03
-**Next action:** Finish 1.1 review, then 1.4 templates. Fiverr steps 1.2, 1.3, 1.6, 1.7, 1.8 paused by Fedya.
+**Next action:** Finish 1.1 (apply reviewer fixes), then 1.4 templates, then 1.5 workflow. Then Project 1B.
+**Channel change (2026-11-03):** see `PLAYBOOK-1B.md`. Fiverr is now optional (overseas buyers only); main channel is Telegram/Facebook groups + WhatsApp orders.
+**OPEN RISK:** UAE Federal Decree-Law 34/2022 (legal profession) may cover "drafting contracts and legal procedures" for others. Must be checked with a licensed UAE practitioner or Dubai DET before taking paid orders. Official text not yet opened (uaelegislation.gov.ae returned 403). VERIFY.
 
 ## Setup (first session)
 
@@ -15,20 +17,39 @@ Status values: todo · doing · waiting-fedya · done
 | S2 | Create folders | done |
 | S3 | Propose 5 brand names, Fedya picks, write `/brand/name.md` | done — Leaseletter |
 
-## Project 1 — Fiverr gig
+## Project 1 — Documents (Fiverr channel paused)
 
 | # | Who | Step | Status |
 |---|---|---|---|
-| 1.1 ★ | Claude | Fiverr rules + competitor table → `/fiverr/research.md`, price recommendation | doing |
+| 1.1 ★ | Claude | Fiverr rules + competitor table → `/fiverr/research.md`, price recommendation | done (reviewed, fixes applied; prices provisional) |
 | 1.2 | Fedya | Fiverr seller account + ID verification | paused (Fedya, 2026-11-03) |
 | 1.3 | Claude | Gig draft → `/fiverr/gig.md` | paused (Fedya, 2026-11-03) |
 | 1.4 ★ | Claude | Master templates (DOCX + PDF) in `/templates`, sources in `/sources` | doing |
-| 1.5 | Claude | Order workflow → `/fiverr/order-workflow.md` | todo |
+| 1.5 | Claude | Order workflow → `/fiverr/order-workflow.md` (used for WhatsApp orders) | todo |
 | 1.6 | Fedya | Upload gig (fields one by one) | paused (Fedya, 2026-11-03) |
 | 1.7 | Claude | Launch set → `/fiverr/launch.md` | paused (Fedya, 2026-11-03) |
 | 1.8 | Fedya | Post launch set over 3 days; 3 real orders from contacts | paused (Fedya, 2026-11-03) |
-| 1.9 | Claude | Fulfil each order (Fedya reads before delivery) | todo |
-| 1.10 | Claude | Summary after first 3 orders → Fable pricing decision | todo |
+| 1.9 | Claude | Fulfil each WhatsApp order (Fedya reads before delivery) | todo |
+| 1.10 | Claude | Summary after first 3 WhatsApp orders → Fable pricing decision | todo |
+
+## Project 1B — Direct orders from landlord communities (see `PLAYBOOK-1B.md`)
+
+Goal: 2–4 paid orders in first 30 days. Prices (AED): one letter 350 · move-out pack 650 · broker pack 750 one-off or 150/month.
+
+| # | Who | Step | Status |
+|---|---|---|---|
+| 1B.1 ★ | Claude | Groups (Telegram/Facebook, RU/EN) + E-Trader + payment links + broker licensing → `/channels/research.md`; Fedya decides | todo |
+| 1B.2 | Claude | 10 Russian answers → `/channels/telegram-answers-ru.md` | todo |
+| 1B.3 | Claude | 10 English answers → `/channels/facebook-answers-en.md` | todo |
+| 1B.4 | Claude | WhatsApp order flow (RU + EN) → `/channels/whatsapp-flow.md` | todo |
+| 1B.5 ★ | Claude | Broker offer + pitch + 20 brokerages → `/channels/broker-offer.md` | todo |
+| 1B.6 | Claude | Broker Landlord Pack (logo placeholder, DOCX + PDF) → `/channels/landlord-pack-broker/` | todo |
+| 1B.7 | Fedya | Join groups; read only for 3 days | todo |
+| 1B.8 | Fedya | Apply for E-Trader; set up payment link | todo |
+| 1B.9 | Fedya | Post 2 answers/week/group; reply on WhatsApp within 1 h | todo |
+| 1B.10 | Fedya | Broker pitch: 3 known brokers, then 5/week from list | todo |
+| 1B.11 | Claude | Fulfil each order (Fedya reads before sending) | todo |
+| 1B.12 | Claude | 30-day summary → Fable | todo |
 
 ## Project 2 — Move-Out Pack
 
@@ -40,10 +61,10 @@ Status values: todo · doing · waiting-fedya · done
 | 2.4 | Claude | Product page → `/pack/product-page.md` | todo |
 | 2.5 | Claude | Five product images → `/pack/images` | todo |
 | 2.6 | Claude | Launch set + 5-email sequence → `/pack/launch.md` | todo |
-| 2.7 | Fedya | Upload, publish, post, link from Fiverr gig | todo |
+| 2.7 | Fedya | Upload, publish, post, link from WhatsApp order flow | todo |
 | 2.8 | Claude | 30-day / 10-sale summary → Fable | todo |
 
-## Project 3 — Calculator
+## Project 3 — Calculator (moved up one week)
 
 | # | Who | Step | Status |
 |---|---|---|---|
@@ -56,7 +77,7 @@ Status values: todo · doing · waiting-fedya · done
 | 3.7 | Fedya | Post answers over 2 weeks; monthly re-verify | todo |
 | 3.8 | — | Metric: visits + emails/week; 30-day summary | todo |
 
-## Project 4 — Dubai Tenancy Answers (30 articles)
+## Project 4 — Dubai Tenancy Answers (30 articles, moved up one week; link to WhatsApp flow, not Fiverr)
 
 | # | Who | Step | Status |
 |---|---|---|---|
@@ -88,4 +109,6 @@ Gate for Phase B: 50 emails (Project 3) or 10 orders (Project 1).
 - 2026-11-03 — Setup: folders, PROGRESS.md, playbook saved as CLAUDE.md. Brand shortlist proposed (Leaseletter, Noticeday, Keyclause, Tenancynote, Clearlease) but availability NOT checked.
   - BLOCKER: environment network policy blocks opening web pages (rdap.verisign.com, data.iana.org, fiverr.com, dubailand.gov.ae all refused). Web search works; page fetch does not. Rule 4 (open + cite source) and Step 1.1 need page access. Fedya to widen Network access in environment settings.
   - Repo linked: github.com/fedyaai2102/roadto500 (main). Files now saved there.
+  - Fedya paused Fiverr steps, then gave channel change (`PLAYBOOK-1B.md`). Brand chosen: Leaseletter.
+  - Fedya blocked one GitHub push; commits are local only until he says whether to keep pushing.
   - First shortlist: only Leaseletter + Tenancynote free as .com. Checked 15 names via Shopify domain tool; new shortlist in `/brand/name-shortlist.md` (Leaseletter, Tenancyready, Tenancynote, Tenantink, Letterlease). .ae + social handles still VERIFY.

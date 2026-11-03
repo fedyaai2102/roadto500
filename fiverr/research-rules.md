@@ -2,7 +2,7 @@
 
 All facts retrieved 2026-11-03. **Method note:** www.fiverr.com, help.fiverr.com, conductatlas.com and tax.gov.ae could not be opened from this session (the hosts are outside its allowed network, which is a session setting and not the sites refusing). So every fact below comes from web-search results and is labelled **(search snippet)**. Before the gig goes live, Fedya should open the linked Fiverr pages himself and check each one. Anything with no source at all is marked **VERIFY**.
 
-General information only, not legal or tax advice.
+General information and templates only, not legal (or tax) advice. For your specific case consult a licensed legal practitioner in the UAE.
 
 ---
 
@@ -66,7 +66,9 @@ General information only, not legal or tax advice.
 - AI-assisted work must be "high-quality, original, and meaningfully refined and customized to the client's specific requirements". Generic or reused AI output does not meet the standard. Sellers must not deliver the same AI content in bulk to many clients. (search snippet) same page and https://help.fiverr.com/hc/en-us/articles/37333179414289-Community-Standards-AI-generated-content, retrieved 2026-11-03
 - **For this gig:** every order must be filled with the buyer's own facts, never a bare master template. Answer honestly if a buyer asks about AI. Turn down orders from buyers who ask for no AI if the workflow uses it.
 
-## 5. Verdict: **YES, WITH CONDITIONS**
+## 5. Verdict: **YES on the Fiverr rules found; UAE-law risk OPEN**
+
+**UAE-law risk (reviewer finding, 2026-11-03):** Federal Decree-Law 34/2022 regulates advocacy and legal consultancy. A search result for its official page lists, within the licensed profession's scope, "Drafting the contracts and relevant legal procedures" (search snippet, https://uaelegislation.gov.ae/en/legislations/1566, retrieved 2026-11-03; the official download returned HTTP 403 to this session, so the article text was not opened: **VERIFY**). Custom-drafted notices may fall inside that scope. The **"dispute summary"** in the Premium tier / move-out pack is the highest-risk item, because summarising a dispute for a buyer is closest to legal work. This risk applies to every channel (Fiverr, WhatsApp, brokers), not only Fiverr.
 
 The gig is document drafting from templates. It is not legal advice or representation, and it does not depend on holding a credential. That fits the rules found, as long as nothing in the gig claims or suggests legal services. Every rule above came from search results, so Fedya should confirm the linked Fiverr pages once before he publishes.
 
@@ -79,6 +81,7 @@ The gig is document drafting from templates. It is not legal advice or represent
 6. All contact and payment stay inside Fiverr: no phone, WhatsApp, email or website link in the gig, profile or messages. Product links in the gig description: VERIFY that they are allowed before adding the store link.
 7. Cite the law as "based on Law No. 26 of 2007 (as amended)". Never suggest that RERA, DLD or any authority endorses the documents.
 8. Complete ID verification, and check which payout methods the UAE account shows. Keep records for tax. Settle the UAE licence question (section 2) before income becomes regular.
+9. **Before the first paid order:** a short check with a licensed UAE legal practitioner or Dubai DET on whether filling tenancy templates for customers is allowed for a non-lawyer under Decree-Law 34/2022, and whether the "dispute summary" must be dropped or reworded.
 
 **Words and phrases to avoid** (based on the credential and misleading-content rules, not a published Fiverr list)
 - Credentials: "lawyer", "attorney", "advocate", "legal consultant", "solicitor", "paralegal", "law firm", "counsel".
