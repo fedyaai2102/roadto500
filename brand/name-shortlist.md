@@ -21,3 +21,11 @@ noticeday, keyclause, clearlease, rentletters, tenancydesk, leasepapers, noticew
 - .ae availability (the tool does not cover .ae; check at an .ae registrar)
 - Instagram / LinkedIn / X / Facebook handle availability (this session cannot open those sites)
 - Existing trademark or business with the same name in the UAE
+
+## Fedya's variants (checked 2026-11-03)
+
+| Domain | Status | First-year price quoted |
+|---|---|---|
+| dubaileaseletter.com | available | USD 17 |
+| uaeleaseletter.com | available | USD 17 |
+| leaseletter.ae | available | USD 54 (Shopify quote; local .ae registrars may differ — VERIFY) |
