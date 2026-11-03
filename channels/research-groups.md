@@ -130,6 +130,15 @@ Runners-up:
 - https://t.me/rent_in_dubai: the biggest Russian rental board (about 70K members), but posts go through a bot and links are banned.
 - The Dubai Investors Group: exact audience, but closed and small.
 
+### Live member counts checked by Claude on 2026-11-03 (public t.me pages, retrieved 2026-11-03)
+| Group | Members | Online at check |
+|---|---|---|
+| https://t.me/dubai_chat_russia | 47,737 | 3,666 |
+| https://t.me/russkie_dubai | 4,049 | 88 |
+| https://t.me/rent_in_dubai | 66,334 | 5,336 |
+
+These replace the snippet counts above for these three groups.
+
 ## 6. What Fedya must check by hand after joining
 
 1. **Current member count and activity.** Note the count, messages per day and the date. Every count here is a cached snippet of unknown age.

@@ -7,7 +7,7 @@ Status values: todo · doing · waiting-fedya · done
 **Last session:** 2026-11-03
 **Next action:** Finish 1.1 (apply reviewer fixes), then 1.4 templates, then 1.5 workflow. Then Project 1B.
 **Channel change (2026-11-03):** see `PLAYBOOK-1B.md`. Fiverr is now optional (overseas buyers only); main channel is Telegram/Facebook groups + WhatsApp orders.
-**OPEN RISK:** UAE Federal Decree-Law 34/2022 (legal profession) may cover "drafting contracts and legal procedures" for others. Must be checked with a licensed UAE practitioner or Dubai DET before taking paid orders. Official text not yet opened (uaelegislation.gov.ae returned 403). VERIFY.
+**OPEN RISK:** Dubai Administrative Resolution 52/2022 (confirmed, official text) lists "drafting contracts" among Legal Services that LAD-licensed firms provide to the public; Federal Decree-Law 34/2022 Art. 5 similar (search extract, VERIFY). Ask a licensed UAE lawyer the 3 questions in `/channels/research.md` §0 before taking paid custom orders.
 
 ## Setup (first session)
 
@@ -38,7 +38,7 @@ Goal: 2–4 paid orders in first 30 days. Prices (AED): one letter 350 · move-o
 
 | # | Who | Step | Status |
 |---|---|---|---|
-| 1B.1 ★ | Claude | Groups (Telegram/Facebook, RU/EN) + E-Trader + payment links + broker licensing → `/channels/research.md`; Fedya decides | doing |
+| 1B.1 ★ | Claude | Groups (Telegram/Facebook, RU/EN) + E-Trader + payment links + broker licensing → `/channels/research.md`; Fedya decides | draft done; in review; then Fedya decides |
 | 1B.2 | Claude | 10 Russian answers → `/channels/telegram-answers-ru.md` | todo |
 | 1B.3 | Claude | 10 English answers → `/channels/facebook-answers-en.md` | todo |
 | 1B.4 | Claude | WhatsApp order flow (RU + EN) → `/channels/whatsapp-flow.md` | todo |
