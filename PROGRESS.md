@@ -87,4 +87,5 @@ Gate for Phase B: 50 emails (Project 3) or 10 orders (Project 1).
 
 - 2026-11-03 — Setup: folders, PROGRESS.md, playbook saved as CLAUDE.md. Brand shortlist proposed (Leaseletter, Noticeday, Keyclause, Tenancynote, Clearlease) but availability NOT checked.
   - BLOCKER: environment network policy blocks opening web pages (rdap.verisign.com, data.iana.org, fiverr.com, dubailand.gov.ae all refused). Web search works; page fetch does not. Rule 4 (open + cite source) and Step 1.1 need page access. Fedya to widen Network access in environment settings.
-  - RISK: no GitHub repo yet. Container is temporary; files are lost unless pushed.
+  - Repo linked: github.com/fedyaai2102/roadto500 (main). Files now saved there.
+  - First shortlist: only Leaseletter + Tenancynote free as .com. Checked 15 names via Shopify domain tool; new shortlist in `/brand/name-shortlist.md` (Leaseletter, Tenancyready, Tenancynote, Tenantink, Letterlease). .ae + social handles still VERIFY.
